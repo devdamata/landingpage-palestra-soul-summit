@@ -72,6 +72,7 @@
         }
         .gradient-rosa-price:hover {
             opacity: 0.9;
+            border-color: #6b02b3 !important;
         }
 
         .gradient-rosa-text {

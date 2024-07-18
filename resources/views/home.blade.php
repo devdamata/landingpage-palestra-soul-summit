@@ -73,9 +73,93 @@
             </div>
         </div>
     </div>
+
+{{--    <div style="background-color: #d7e1e1; padding-bottom: 25px; padding-top: 50px">--}}
+{{--        <header>--}}
+{{--            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">--}}
+{{--                <h1 class="display-4 fw-normal text-body-emphasis">Nossas cotas</h1>--}}
+{{--                <p class="fs-5 text-body-secondary">Temos 3 opções incríveis para você não perder de jeito nenhum, essa transformação de negócios.</p>--}}
+{{--            </div>--}}
+{{--        </header>--}}
+
+{{--        <div class="container">--}}
+{{--            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">--}}
+{{--                <div class="col">--}}
+{{--                    <div class="card mb-4 rounded-3 shadow-sm">--}}
+{{--                        <div class="card-header py-3">--}}
+{{--                            <h4 class="my-0 fw-normal">Bronze</h4>--}}
+{{--                        </div>--}}
+{{--                        <div class="card-body">--}}
+{{--                            <h1 class="card-title pricing-card-title">R$15K--}}
+{{--                                --}}{{--                                <small class="text-body-secondary fw-light">/mo</small>--}}
+{{--                            </h1>--}}
+{{--                            <ul class="list-unstyled mt-3 mb-4 fs-5">--}}
+{{--                                <li>+Logo pequeno <span class="text-roxo">Backdrop | Painel | Peças comunicação</span></li>--}}
+{{--                                <li>+1 Ingresso <span class="text-roxo">Cortesia</span></li>--}}
+{{--                                <li>+Mailing <span class="text-roxo">Evento</span></li>--}}
+{{--                            </ul>--}}
+{{--                            <button type="button" class="w-100 btn btn-lg btn-outline-primary btn-gradient-hover barlow-semibold fs-5"--}}
+{{--                                    style="border-color: #6b02b3 !important; color: #6b02b3;">Não quero ficar de fora</button>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col">--}}
+{{--                    <div class="card mb-4 rounded-3 shadow-sm">--}}
+{{--                        <div class="card-header py-3">--}}
+{{--                            <h4 class="my-0 fw-normal">Prata</h4>--}}
+{{--                        </div>--}}
+{{--                        <div class="card-body">--}}
+{{--                            <h1 class="card-title pricing-card-title">R$25K--}}
+{{--                                --}}{{--                                <small class="text-body-secondary fw-light">/mo</small>--}}
+{{--                            </h1>--}}
+{{--                            <ul class="list-unstyled mt-3 mb-4 fs-5">--}}
+{{--                                <li>+Área para <span class="text-roxo">ativação</span></li>--}}
+{{--                                <li>+Logo médio <span class="text-roxo">Backdrop | Painel | Peças comunicação</span></li>--}}
+{{--                                <li>+5 Ingressos <span class="text-roxo">Cortesia, com acesso ao camarim</span></li>--}}
+{{--                                <li><span class="text-roxo">Gravação Pod Cast</span></li>--}}
+{{--                                <li>+Mailing <span class="text-roxo">Evento</span></li>--}}
+{{--                                <li>+Divulgação <span class="text-roxo">canais de comunicação</span></li>--}}
+{{--                            </ul>--}}
+{{--                            <button type="button"--}}
+{{--                                    class="w-100 btn btn-lg btn-primary gradient-rosa-price barlow-semibold fs-5">--}}
+{{--                                Não quero ficar de fora--}}
+{{--                            </button>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col">--}}
+{{--                    <div class="card mb-4 rounded-3 shadow-sm">--}}
+{{--                        <div class="card-header py-3" style="background: linear-gradient(135deg, #2f066c, #f9059a, #b59de5);">--}}
+{{--                            <h4 class="my-0 fw-normal text-white">Ouro</h4>--}}
+{{--                        </div>--}}
+{{--                        <div class="card-body">--}}
+{{--                            <h1 class="card-title pricing-card-title">R$35K--}}
+{{--                                --}}{{--                                <small class="text-body-secondary fw-light">/mo</small>--}}
+{{--                            </h1>--}}
+{{--                            <ul class="list-unstyled mt-3 mb-4 fs-5">--}}
+{{--                                <li>+Área para <span class="text-roxo">ativação</span></li>--}}
+{{--                                <li>+Logo grande <span class="text-roxo">Backdrop | Painel | Peças comunicação</span></li>--}}
+{{--                                <li>+10 Ingressos <span class="text-roxo">Cortesia, com acesso ao camarim</span></li>--}}
+{{--                                <li>+Painel ou palestra <span class="text-roxo">Gravação Pod Cast</span></li>--}}
+{{--                                <li>+Publistory no perfil <span class="text-roxo">Palestrante | Soul Summit</span></li>--}}
+{{--                                <li>+Mailing <span class="text-roxo">Evento</span></li>--}}
+{{--                                <li>+Divulgação <span class="text-roxo">Mídia | Impresa | Canais de comunicação</span></li>--}}
+{{--                            </ul>--}}
+{{--                            <button type="button"--}}
+{{--                                    class="w-100 btn btn-lg btn-primary gradient-rosa-price barlow-semibold fs-5">--}}
+{{--                                Não quero ficar de fora--}}
+{{--                            </button>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+
     <div class="container-fluid g-0">
-        <img src="{{asset('images/dobra-ecommerce.jpeg')}}" alt="focado em e-commerce" style="width: 100%;">
+        <img src="{{asset('images/mais-30-palestrantes.jpeg')}}" alt="focado em e-commerce" style="width: 100%;">
     </div>
+
     <div class="container-fluid g-0" style="background-color: #d7e1e1; padding-bottom: 25px;">
         <div class="container text-center">
             <div class="row pt-5">
@@ -158,12 +242,15 @@
         </div>
     </div>
 
+    <div class="container-fluid g-0">
+        <img src="{{asset('images/dobra-ecommerce.jpeg')}}" alt="focado em e-commerce" style="width: 100%;">
+    </div>
 
-    <div>
+    <div style="background-color: #d7e1e1; padding-bottom: 25px;">
         <header>
             <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-                <h1 class="display-4 fw-normal text-body-emphasis">Pricing</h1>
-                <p class="fs-5 text-body-secondary">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+                <h1 class="display-4 fw-normal text-body-emphasis">Nossas cotas</h1>
+                <p class="fs-5 text-body-secondary">Temos 3 opções incríveis para você não perder de jeito nenhum, essa transformação de negócios.</p>
             </div>
         </header>
 
@@ -241,32 +328,28 @@
         </div>
     </div>
 
-
     <footer class="footer">
         <div class="container">
             <div class="row">
                 <!-- About Section -->
                 <div class="col-md-4">
-                    <h5>Sobre Nós</h5>
-                    <p>Somos uma empresa dedicada a fornecer os melhores produtos e serviços.</p>
+                    <h5>Soul Summit</h5>
+                    <p>Vamos fazer desse evento um marco para o empreendedorismo local topa?</p>
                 </div>
                 <!-- Quick Links Section -->
                 <div class="col-md-4">
                     <h5>Links Rápidos</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Serviços</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Garanta já o seu ingresso</a></li>
                     </ul>
                 </div>
                 <!-- Contact Section -->
                 <div class="col-md-4">
                     <h5>Contato</h5>
                     <ul class="list-unstyled">
-                        <li><i class="bi bi-telephone-fill"></i> (11) 1234-5678</li>
-                        <li><i class="bi bi-envelope-fill"></i> email@empresa.com</li>
-                        <li><i class="bi bi-geo-alt-fill"></i> Rua Exemplo, 123, São Paulo, SP</li>
+                        <li><i class="bi bi-telephone-fill"></i> (11) 95907-9021</li>
+                        <li><i class="bi bi-envelope-fill"></i> eventos@soulogistica.com.br</li>
+                        <li><i class="bi bi-geo-alt-fill"></i> Rua Exemplo, 123, São Caetano, SP</li>
                     </ul>
                     <div class="social-icons">
                         <a href="#"><i class="bi bi-facebook"></i></a>
@@ -278,7 +361,10 @@
             </div>
             <div class="row mt-3">
                 <div class="col text-center">
-                    <p>&copy; 2024 Empresa. Todos os direitos reservados.</p>
+                    <p>&copy; 2024 Soul Summit. Todos os direitos reservados.</p>
+                </div>
+                <div class="col text-center">
+                    <p>Desenvolvido por: <a href="https://damatatechnology.com.br">Damata Technology</a></p>
                 </div>
             </div>
         </div>
