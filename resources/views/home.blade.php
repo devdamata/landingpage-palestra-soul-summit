@@ -184,10 +184,10 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col-md-4">
-                    <img class="img-fluid"
-                         src="{{asset('images/palestrantes/bruna-malheiros.jpg')}}" alt="">
-                </div>
+{{--                <div class="col-md-4">--}}
+{{--                    <img class="img-fluid"--}}
+{{--                         src="{{asset('images/palestrantes/bruna-malheiros.jpg')}}" alt="">--}}
+{{--                </div>--}}
                 <div class="col-md-4">
                     <img class="img-fluid"
                          src="{{asset('images/palestrantes/carolina-moreno.jpg')}}" alt="">
@@ -196,12 +196,12 @@
                     <img class="img-fluid"
                          src="{{asset('images/palestrantes/claudia-rosa.jpg')}}" alt="">
                 </div>
-            </div>
-            <div class="row mt-5">
                 <div class="col-md-4">
                     <img class="img-fluid"
                          src="{{asset('images/palestrantes/clovis-souza.jpg')}}" alt="">
                 </div>
+            </div>
+            <div class="row mt-5">
                 <div class="col-md-4">
                     <img class="img-fluid"
                          src="{{asset('images/palestrantes/dennis-nakamura.jpg')}}" alt="">
@@ -210,12 +210,12 @@
                     <img class="img-fluid"
                          src="{{asset('images/palestrantes/eduardo-shinyashiki.jpg')}}" alt="">
                 </div>
-            </div>
-            <div class="row mt-5">
                 <div class="col-md-4">
                     <img class="img-fluid"
                          src="{{asset('images/palestrantes/everton-henrique.jpg')}}" alt="">
                 </div>
+            </div>
+            <div class="row mt-5">
                 <div class="col-md-4">
                     <img class="img-fluid"
                          src="{{asset('images/palestrantes/felipe-cantera.jpg')}}" alt="">
@@ -224,12 +224,12 @@
                     <img class="img-fluid"
                          src="{{asset('images/palestrantes/leonardo-mantovani.jpg')}}" alt="">
                 </div>
-            </div>
-            <div class="row mt-5">
                 <div class="col-md-4">
                     <img class="img-fluid"
                          src="{{asset('images/palestrantes/patricia-cotti.jpg')}}" alt="">
                 </div>
+            </div>
+            <div class="row mt-5">
                 <div class="col-md-4">
                     <img class="img-fluid"
                          src="{{asset('images/palestrantes/silvia-belluzzo.jpg')}}" alt="">
@@ -246,89 +246,89 @@
         <img src="{{asset('images/dobra-ecommerce.jpeg')}}" alt="focado em e-commerce" style="width: 100%;">
     </div>
 
-    <div style="background-color: #d7e1e1; padding-bottom: 25px;">
-        <header>
-            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-                <h1 class="display-4 fw-normal text-body-emphasis">Nossas cotas</h1>
-                <p class="fs-5 text-body-secondary">Temos 3 opções incríveis para você não perder de jeito nenhum, essa transformação de negócios.</p>
-            </div>
-        </header>
+{{--    <div style="background-color: #d7e1e1; padding-bottom: 25px;">--}}
+{{--        <header>--}}
+{{--            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">--}}
+{{--                <h1 class="display-4 fw-normal text-body-emphasis">Nossas cotas</h1>--}}
+{{--                <p class="fs-5 text-body-secondary">Temos 3 opções incríveis para você não perder de jeito nenhum, essa transformação de negócios.</p>--}}
+{{--            </div>--}}
+{{--        </header>--}}
 
-        <div class="container">
-            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-                <div class="col">
-                    <div class="card mb-4 rounded-3 shadow-sm">
-                        <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">Bronze</h4>
-                        </div>
-                        <div class="card-body">
-                            <h1 class="card-title pricing-card-title">R$15K
+{{--        <div class="container">--}}
+{{--            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">--}}
+{{--                <div class="col">--}}
+{{--                    <div class="card mb-4 rounded-3 shadow-sm">--}}
+{{--                        <div class="card-header py-3">--}}
+{{--                            <h4 class="my-0 fw-normal">Bronze</h4>--}}
+{{--                        </div>--}}
+{{--                        <div class="card-body">--}}
+{{--                            <h1 class="card-title pricing-card-title">R$15K--}}
 {{--                                <small class="text-body-secondary fw-light">/mo</small>--}}
-                            </h1>
-                            <ul class="list-unstyled mt-3 mb-4 fs-5">
-                                <li>+Logo pequeno <span class="text-roxo">Backdrop | Painel | Peças comunicação</span></li>
-                                <li>+1 Ingresso <span class="text-roxo">Cortesia</span></li>
-                                <li>+Mailing <span class="text-roxo">Evento</span></li>
-                            </ul>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-primary btn-gradient-hover barlow-semibold fs-5"
-                                    style="border-color: #6b02b3 !important; color: #6b02b3;">Não quero ficar de fora</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-4 rounded-3 shadow-sm">
-                        <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">Prata</h4>
-                        </div>
-                        <div class="card-body">
-                            <h1 class="card-title pricing-card-title">R$25K
+{{--                            </h1>--}}
+{{--                            <ul class="list-unstyled mt-3 mb-4 fs-5">--}}
+{{--                                <li>+Logo pequeno <span class="text-roxo">Backdrop | Painel | Peças comunicação</span></li>--}}
+{{--                                <li>+1 Ingresso <span class="text-roxo">Cortesia</span></li>--}}
+{{--                                <li>+Mailing <span class="text-roxo">Evento</span></li>--}}
+{{--                            </ul>--}}
+{{--                            <button type="button" class="w-100 btn btn-lg btn-outline-primary btn-gradient-hover barlow-semibold fs-5"--}}
+{{--                                    style="border-color: #6b02b3 !important; color: #6b02b3;">Não quero ficar de fora</button>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col">--}}
+{{--                    <div class="card mb-4 rounded-3 shadow-sm">--}}
+{{--                        <div class="card-header py-3">--}}
+{{--                            <h4 class="my-0 fw-normal">Prata</h4>--}}
+{{--                        </div>--}}
+{{--                        <div class="card-body">--}}
+{{--                            <h1 class="card-title pricing-card-title">R$25K--}}
 {{--                                <small class="text-body-secondary fw-light">/mo</small>--}}
-                            </h1>
-                            <ul class="list-unstyled mt-3 mb-4 fs-5">
-                                <li>+Área para <span class="text-roxo">ativação</span></li>
-                                <li>+Logo médio <span class="text-roxo">Backdrop | Painel | Peças comunicação</span></li>
-                                <li>+5 Ingressos <span class="text-roxo">Cortesia, com acesso ao camarim</span></li>
-                                <li><span class="text-roxo">Gravação Pod Cast</span></li>
-                                <li>+Mailing <span class="text-roxo">Evento</span></li>
-                                <li>+Divulgação <span class="text-roxo">canais de comunicação</span></li>
-                            </ul>
-                            <button type="button"
-                                    class="w-100 btn btn-lg btn-primary gradient-rosa-price barlow-semibold fs-5">
-                                Não quero ficar de fora
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-4 rounded-3 shadow-sm">
-                        <div class="card-header py-3" style="background: linear-gradient(135deg, #2f066c, #f9059a, #b59de5);">
-                            <h4 class="my-0 fw-normal text-white">Ouro</h4>
-                        </div>
-                        <div class="card-body">
-                            <h1 class="card-title pricing-card-title">R$35K
+{{--                            </h1>--}}
+{{--                            <ul class="list-unstyled mt-3 mb-4 fs-5">--}}
+{{--                                <li>+Área para <span class="text-roxo">ativação</span></li>--}}
+{{--                                <li>+Logo médio <span class="text-roxo">Backdrop | Painel | Peças comunicação</span></li>--}}
+{{--                                <li>+5 Ingressos <span class="text-roxo">Cortesia, com acesso ao camarim</span></li>--}}
+{{--                                <li><span class="text-roxo">Gravação Pod Cast</span></li>--}}
+{{--                                <li>+Mailing <span class="text-roxo">Evento</span></li>--}}
+{{--                                <li>+Divulgação <span class="text-roxo">canais de comunicação</span></li>--}}
+{{--                            </ul>--}}
+{{--                            <button type="button"--}}
+{{--                                    class="w-100 btn btn-lg btn-primary gradient-rosa-price barlow-semibold fs-5">--}}
+{{--                                Não quero ficar de fora--}}
+{{--                            </button>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col">--}}
+{{--                    <div class="card mb-4 rounded-3 shadow-sm">--}}
+{{--                        <div class="card-header py-3" style="background: linear-gradient(135deg, #2f066c, #f9059a, #b59de5);">--}}
+{{--                            <h4 class="my-0 fw-normal text-white">Ouro</h4>--}}
+{{--                        </div>--}}
+{{--                        <div class="card-body">--}}
+{{--                            <h1 class="card-title pricing-card-title">R$35K--}}
 {{--                                <small class="text-body-secondary fw-light">/mo</small>--}}
-                            </h1>
-                            <ul class="list-unstyled mt-3 mb-4 fs-5">
-                                <li>+Área para <span class="text-roxo">ativação</span></li>
-                                <li>+Logo grande <span class="text-roxo">Backdrop | Painel | Peças comunicação</span></li>
-                                <li>+10 Ingressos <span class="text-roxo">Cortesia, com acesso ao camarim</span></li>
-                                <li>+Painel ou palestra <span class="text-roxo">Gravação Pod Cast</span></li>
-                                <li>+Publistory no perfil <span class="text-roxo">Palestrante | Soul Summit</span></li>
-                                <li>+Mailing <span class="text-roxo">Evento</span></li>
-                                <li>+Divulgação <span class="text-roxo">Mídia | Impresa | Canais de comunicação</span></li>
-                            </ul>
-                            <button type="button"
-                                    class="w-100 btn btn-lg btn-primary gradient-rosa-price barlow-semibold fs-5">
-                                Não quero ficar de fora
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+{{--                            </h1>--}}
+{{--                            <ul class="list-unstyled mt-3 mb-4 fs-5">--}}
+{{--                                <li>+Área para <span class="text-roxo">ativação</span></li>--}}
+{{--                                <li>+Logo grande <span class="text-roxo">Backdrop | Painel | Peças comunicação</span></li>--}}
+{{--                                <li>+10 Ingressos <span class="text-roxo">Cortesia, com acesso ao camarim</span></li>--}}
+{{--                                <li>+Painel ou palestra <span class="text-roxo">Gravação Pod Cast</span></li>--}}
+{{--                                <li>+Publistory no perfil <span class="text-roxo">Palestrante | Soul Summit</span></li>--}}
+{{--                                <li>+Mailing <span class="text-roxo">Evento</span></li>--}}
+{{--                                <li>+Divulgação <span class="text-roxo">Mídia | Impresa | Canais de comunicação</span></li>--}}
+{{--                            </ul>--}}
+{{--                            <button type="button"--}}
+{{--                                    class="w-100 btn btn-lg btn-primary gradient-rosa-price barlow-semibold fs-5">--}}
+{{--                                Não quero ficar de fora--}}
+{{--                            </button>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
-    <footer class="footer">
+    <footer class="footer" style="margin-top: 20px">
         <div class="container">
             <div class="row">
                 <!-- About Section -->
