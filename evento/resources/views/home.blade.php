@@ -172,71 +172,85 @@
             <div class="row mt-5">
                 <div class="col-md-4">
                     <img class="img-fluid"
-                         src="{{asset('images/palestrantes/alex-moro.jpg')}}" alt="">
+                         src="{{asset('images/palestrantes/alexandre-nogueira.png')}}" alt="">
                 </div>
                 <div class="col-md-4">
                     <img class="img-fluid"
-                         src="{{asset('images/palestrantes/alexandre-nogueira.jpg')}}" alt="">
+                         src="{{asset('images/palestrantes/ariadne-souza.png')}}" alt="">
                 </div>
                 <div class="col-md-4">
                     <img class="img-fluid"
-                         src="{{asset('images/palestrantes/ariadne-souza.jpg')}}" alt="">
-                </div>
-            </div>
-            <div class="row mt-5">
-{{--                <div class="col-md-4">--}}
-{{--                    <img class="img-fluid"--}}
-{{--                         src="{{asset('images/palestrantes/bruna-malheiros.jpg')}}" alt="">--}}
-{{--                </div>--}}
-                <div class="col-md-4">
-                    <img class="img-fluid"
-                         src="{{asset('images/palestrantes/carolina-moreno.jpg')}}" alt="">
-                </div>
-                <div class="col-md-4">
-                    <img class="img-fluid"
-                         src="{{asset('images/palestrantes/claudia-rosa.jpg')}}" alt="">
-                </div>
-                <div class="col-md-4">
-                    <img class="img-fluid"
-                         src="{{asset('images/palestrantes/clovis-souza.jpg')}}" alt="">
+                         src="{{asset('images/palestrantes/carolina-moreno.png')}}" alt="">
                 </div>
             </div>
             <div class="row mt-5">
                 <div class="col-md-4">
                     <img class="img-fluid"
-                         src="{{asset('images/palestrantes/dennis-nakamura.jpg')}}" alt="">
+                         src="{{asset('images/palestrantes/claudia-rosa.png')}}" alt="">
                 </div>
                 <div class="col-md-4">
                     <img class="img-fluid"
-                         src="{{asset('images/palestrantes/eduardo-shinyashiki.jpg')}}" alt="">
+                         src="{{asset('images/palestrantes/clovis-souza.png')}}" alt="">
                 </div>
                 <div class="col-md-4">
                     <img class="img-fluid"
-                         src="{{asset('images/palestrantes/everton-henrique.jpg')}}" alt="">
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-md-4">
-                    <img class="img-fluid"
-                         src="{{asset('images/palestrantes/felipe-cantera.jpg')}}" alt="">
-                </div>
-                <div class="col-md-4">
-                    <img class="img-fluid"
-                         src="{{asset('images/palestrantes/leonardo-mantovani.jpg')}}" alt="">
-                </div>
-                <div class="col-md-4">
-                    <img class="img-fluid"
-                         src="{{asset('images/palestrantes/patricia-cotti.jpg')}}" alt="">
+                         src="{{asset('images/palestrantes/dennis-nakamura.png')}}" alt="">
                 </div>
             </div>
             <div class="row mt-5">
                 <div class="col-md-4">
                     <img class="img-fluid"
-                         src="{{asset('images/palestrantes/silvia-belluzzo.jpg')}}" alt="">
+                         src="{{asset('images/palestrantes/eduardo-shinyashiki.png')}}" alt="">
                 </div>
                 <div class="col-md-4">
                     <img class="img-fluid"
-                         src="{{asset('images/palestrantes/tatyane-luncah.jpg')}}" alt="">
+                         src="{{asset('images/palestrantes/everton-henrique.png')}}" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid"
+                         src="{{asset('images/palestrantes/felipe-cantera.png')}}" alt="">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <img class="img-fluid"
+                         src="{{asset('images/palestrantes/leo-mantovan.png')}}" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid"
+                         src="{{asset('images/palestrantes/lucas-garcia.png')}}" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid"
+                         src="{{asset('images/palestrantes/luiza-possi.png')}}" alt="">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <img class="img-fluid"
+                         src="{{asset('images/palestrantes/patricia-cotti.png')}}" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid"
+                         src="{{asset('images/palestrantes/silvia-belluzzo.png')}}" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid"
+                         src="{{asset('images/palestrantes/sirlene-costa.png')}}" alt="">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <img class="img-fluid"
+                         src="{{asset('images/palestrantes/tatyane-luncah.png')}}" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid"
+                         src="{{asset('images/palestrantes/vanessa-ribeiro.png')}}" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid"
+                         src="{{asset('images/palestrantes/waldir-junior.png')}}" alt="">
                 </div>
             </div>
         </div>

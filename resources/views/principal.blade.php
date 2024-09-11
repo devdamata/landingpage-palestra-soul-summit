@@ -53,6 +53,38 @@
             </div>
         </div>
     </div>
+    <div class="container-fluid g-0" style="background-color: #d7e1e1; padding-bottom: 25px;">
+        <div class="container text-center">
+            <div class="row pt-5">
+                <div class="col align-self-center pt-5">
+                    <span class="barlow-black fs-1 gradient-rosa-text">PALESTRAS:</span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <img class="img-fluid"
+                         src="{{asset('images/palestrantes/desafios-e-solucoes-para-e-commerce-e-marketplaces.png')}}" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid"
+                         src="{{asset('images/palestrantes/empreendedorismo-feminino.png')}}" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid"
+                         src="{{asset('images/palestrantes/marketing-multicanal-e-influencia.png')}}" alt="">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <img class="img-fluid"
+                         src="{{asset('images/palestrantes/vencendo-em-marketplaces.png')}}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container-fluid g-0">
         <img src="{{asset('images/mais-30-palestrantes.jpeg')}}" alt="focado em e-commerce" style="width: 100%;">
     </div>
@@ -106,7 +138,7 @@
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         // Defina a data do evento
-        const eventDate = new Date("2024-09-13T15:00:00");
+        const eventDate = new Date("2024-10-22T15:00:00");
 
         function updateCountdown() {
             const now = new Date();
