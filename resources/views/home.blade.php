@@ -375,7 +375,7 @@
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         // Defina a data do evento
-        const eventDate = new Date("2024-09-13T15:00:00");
+        const eventDate = new Date("2024-10-22T15:00:00");
 
         function updateCountdown() {
             const now = new Date();

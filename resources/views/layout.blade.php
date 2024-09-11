@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Soul Summit</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
     crossorigin="anonymous">
@@ -198,6 +198,19 @@
             z-index: 1000;
         }
 
+        .cronometro-2 {
+            width: 95%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            /*margin: 0 auto;*/
+            left: 2.5%;
+            right: 2.5%;
+            top: 56%;
+            /*position: absolute;*/
+            z-index: 1000;
+
+        }
+
         .countdown {
             color: #fff;
             display: flex;
@@ -248,6 +261,11 @@
         }
         .text-roxo {
             color: #8252ff;
+        }
+        .video-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding-top: 10px;
         }
     </style>
 </head>

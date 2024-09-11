@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+    Options +FollowSymLinks
+    RewriteEngine On
+    
+    RewriteCond %{REQUEST_URI} !^/public/ 
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    
+    RewriteRule ^(.*)$ /public/$1 
+    #RewriteRule ^ index.php [L]
+    RewriteRule ^(/)?$ public/index.php [L] 
+</IfModule>
+
+<VirtualHost *:80>
+    ServerName soulsummitabc.com.br
+    DocumentRoot /home/u574481075/domains/soulsummitabc.com.br/public_html
+    <Directory /home/u574481075/domains/soulsummitabc.com.br/public_html>
+        AllowOverride All
+    </Directory>
+</VirtualHost>
